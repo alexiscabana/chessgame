@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <Preference
+        android:key="style_piece"
+        android:title="@string/pieces_look_config" />
+
+    <Preference
+        android:key="style_chess"
+        android:title="@string/config_chessboard_look" />
+
+</PreferenceScreen>

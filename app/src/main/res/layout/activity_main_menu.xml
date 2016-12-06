@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.equipe4.thechessgame.MainMenu.MainMenuActivity"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/chess_main_menu"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/textedit_ip_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/adresse_ip_hint"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/set_ip_addr_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ok"
+            android:layout_weight="4"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/boutonJoindrePartie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainmenu_bouton_joindre_partie"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <Button
+        android:id="@+id/boutonCreerNouvellePartie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/mainmenu_bouton_creer_partie"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+</LinearLayout>

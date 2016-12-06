@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Jeu d\'échec</string>
+
+    <!-- Strings related to Main menu -->
+
+    <string name="mainmenu_bouton_creer_partie">Créer une nouvelle partie</string>
+    <string name="mainmenu_bouton_joindre_partie">Joindre une partie en cours</string>
+
+    <string name="joindre_partie_alertdialog_message">Entrez le mot de passe de la partie</string>
+
+    <!-- Strings related to Create New Game menu -->
+
+    <string name="createNewGamemenu_bouton_reglages">Configurer la partie</string>
+    <string name="createNewGamemenu_bouton_creer_partie">Créer la partie</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Général</string>
+
+    <string name="pref_title_display_name">Nom du Joueur</string>
+    <string name="pref_default_display_name">John Doe</string>
+    <string name="pref_title_settings_time_format">Configurer le décompte du temps</string>
+
+    <string name="pref_title_enable_two_tablets_mode">Activer le mode 2 tablettes</string>
+    <string name="pref_summary_enable_two_tablets_mode">Mode où vous jouez avec un autre joueur sur 2 appareils différents</string>
+
+    <string name="pref_title_mot_de_passe_partie">Mot de passe de la partie</string>
+
+    <string name="pref_title_lieu_partie">Lieu où la partie se joue</string>
+    <string name="pref_default_lieu_partie">Montréal</string>
+
+    <string name="pref_title_enable_enpassant_mode">Activer le mode \"en passant\"</string>
+    <string name="pref_summary_enable_enpassant_mode">Droit de capturer un pion en diagonal le tour suivant son double pas. Les 2 pièces doivent être côte-à-côte.</string>
+
+    <string name="pref_title_display_name2">Nom du Joueur 2</string>
+
+
+    <!-- Example settings for A Propos -->
+    <string name="pref_header_a_propos">À propos</string>
+
+
+    <!-- Example settings for Apparence visuelle -->
+    <string name="pref_header_apparence">Apparence visuelle</string>
+
+    <string name="main_game_start_game_button">Commencer la partie</string>
+    <string name="game_started_warning">La partie a commencée!</string>
+    <string name="cannot_start_game_error">"Impossible de commencer la partie : "</string>
+    <string name="pswd_accepted_mainmenu">Mot de passe accepté!</string>
+    <string name="cannot_do_move_toastmessage">"Impossible d'effectuer le mouvement : "</string>
+    <string name="main_game_finish_game_button_mess">Terminer la partie</string>
+    <string name="pwan_promotion_dialog_title">Promotion d\'un pion</string>
+    <string name="adresse_ip_hint">Adresse IP</string>
+    <string name="ok">OK</string>
+    <string name="total_time_each_player_mess">"Temps total pour chaque joueur "</string>
+    <string name="max_time_each_turn_mess">Temps incrémental maximum pour chaque tour</string>
+    <string name="turn_limit_each_player_mess">Limite de coup par joueur</string>
+    <string name="total_overtime_each_player_mess">Temps total pour chaque joueur en prolongation</string>
+    <string name="total_overtime_each_turn_player_mess">Temps incrémental maximum pour chaque tour en prolongation</string>
+    <string name="minutes_units">minutes</string>
+    <string name="seconds_unit">secondes</string>
+    <string name="turn_unit">coups</string>
+    <string name="normal_game_default_name">Partie normale</string>
+    <string name="pref_current_round">Ronde courante</string>
+    <string name="Settings">Configuration</string>
+    <string name="config_chessboard_look">Apparence de l\'échiquier</string>
+    <string name="pieces_look_config">Apparence des pièces</string>
+    <string name="good_game_mess">Bonne partie!</string>
+    <string name="mettre_jour_l_chiquier">Mettre à jour l\'échiquier</string>
+</resources>

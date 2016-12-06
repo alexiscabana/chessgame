@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.equipe4.thechessgame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.equipe4.com.alexiscabana.thechessgame.Platform"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.equipe4.com.alexiscabana.thechessgame.MainMenu.MainMenuActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.equipe4.com.alexiscabana.thechessgame.Settings.SettingsActivity"
+            android:label="Réglages" />
+        <activity
+            android:name="com.equipe4.com.alexiscabana.thechessgame.CreateNewGame.CreateNewGameActivity"
+            android:label="Créer une nouvelle partie" />
+        <activity
+            android:name="com.equipe4.com.alexiscabana.thechessgame.MainGame.MainGameActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light"
+            android:label="Partie en cours"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.equipe4.com.alexiscabana.thechessgame.Settings.TimeKeepingConfigActivity"
+            android:label="Paramètres de temps"
+            android:theme="@style/Theme.Transparent"
+            />
+    </application>
+
+</manifest>

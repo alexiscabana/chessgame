@@ -1,0 +1,18 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.equipe4.thechessgame.Settings.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.equipe4.thechessgame.Settings.SettingsActivity$ApparencePreferenceFragment"
+        android:title="@string/pref_header_apparence" />
+
+    <header
+        android:fragment="com.equipe4.thechessgame.Settings.SettingsActivity$AProposPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_a_propos" />
+
+</preference-headers>

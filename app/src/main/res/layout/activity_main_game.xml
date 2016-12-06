@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/chessboard_vertical_margin"
+    android:paddingLeft="@dimen/chessboard_horizontal_margin"
+    android:paddingRight="@dimen/chessboard_horizontal_margin"
+    android:paddingTop="@dimen/chessboard_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.equipe4.thechessgame.MainGame.MainGameActivity">
+
+
+    <com.equipe4.thechessgame.MainGame.ChessboardView
+        android:id="@+id/chessboardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"/>
+
+
+    <Button
+        android:id="@+id/main_game_start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:text="@string/main_game_start_game_button"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/main_game_end_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:text="@string/main_game_finish_game_button_mess"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"/>
+
+    <com.equipe4.thechessgame.MainGame.ChessInfoView
+        android:id="@+id/chess_info_main_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/main_game_end_button"/>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="nom_joueur_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    <EditTextPreference
+        android:title="@string/pref_title_display_name2"
+        android:capitalize="words"
+        android:defaultValue=""
+        android:inputType="textCapWords"
+        android:key="nom_joueur_2_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_lieu_partie"
+        android:inputType="textCapWords"
+        android:key="lieu_partie_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_lieu_partie" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/normal_game_default_name"
+        android:inputType="textCapWords"
+        android:key="ronde_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_current_round" />
+
+    <Preference
+        android:key="decompte_temp_pref"
+        android:title="@string/pref_title_settings_time_format"/>
+
+    <SwitchPreference
+        android:title="@string/pref_title_enable_two_tablets_mode"
+        android:key="twoTabletsMode_switch"
+        android:summary="@string/pref_summary_enable_two_tablets_mode"
+        android:defaultValue="false"/>
+
+    <EditTextPreference
+        android:title="@string/pref_title_mot_de_passe_partie"
+        android:dependency="twoTabletsMode_switch"
+        android:capitalize="words"
+        android:defaultValue=""
+        android:inputType="textCapWords"
+        android:key="mot_de_passe_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"/>
+
+
+    <SwitchPreference
+        android:title="@string/pref_title_enable_enpassant_mode"
+        android:key="enpassantMode_switch"
+        android:summary="@string/pref_summary_enable_enpassant_mode"
+        android:defaultValue="false"/>
+
+</PreferenceScreen>

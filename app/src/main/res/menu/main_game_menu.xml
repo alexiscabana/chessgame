@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item
+        android2:icon="@drawable/settings_xxl"
+        android:showAsAction="always"
+        android2:orderInCategory="100"
+        android2:title="@string/Settings"
+        android2:menuCategory="container">
+            <menu>
+                <item
+                    android2:id="@+id/board_config_submenu"
+                    android2:title="@string/config_chessboard_look"/>
+                <item
+                    android2:id="@+id/pieces_confg_submenu"
+                    android2:title="@string/pieces_look_config"/>
+                <item
+                    android2:id="@+id/update_submenu"
+                    android2:title="@string/mettre_jour_l_chiquier"/>
+            </menu>
+        </item>
+</menu>
